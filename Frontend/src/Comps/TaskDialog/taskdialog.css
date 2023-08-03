@@ -1,0 +1,66 @@
+.taskDialog {
+  position: absolute;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100dvh;
+  background-color: rgba(0, 0, 0, 0.57);
+}
+
+.taskDialog .mainDialogBody {
+  width: 450px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 0.3rem;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.taskDialog .dialogHead {
+  width: 100%;
+  height: 20%;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: scroll;
+}
+
+.taskDialog .dialogHead h1 {
+  color: rgb(46, 45, 45);
+  font-size: 23px;
+}
+
+.taskDialog .dialogHead img {
+  width: 20px;
+  cursor: pointer;
+  margin: 0 12px;
+}
+.taskDialog .dialogSection {
+  overflow: scroll;
+  color: rgb(46, 45, 45);
+  font-size: 14px;
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .taskDialog .mainDialogBody {
+    width: 100%;
+    margin: 0 5px;
+    height: 200px;
+  }
+
+  .taskDialog .dialogHead {
+    height: 15%;
+    margin-top: 15px;
+    align-items: flex-start;
+  }
+
+  .taskDialog .dialogHead h1 {
+    font-size: 18px;
+  }
+}

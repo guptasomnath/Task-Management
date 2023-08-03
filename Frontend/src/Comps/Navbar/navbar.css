@@ -1,0 +1,33 @@
+.navbarDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.navbarDiv h1 {
+  font-size: 30px;
+  line-height: 1.1;
+  color: #242424;
+}
+
+.navbarDiv button {
+  padding: 12px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: gray;
+  color: #fff;
+  border: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .navbarDiv h1 {
+    font-size: 22px;
+  }
+
+  .navbarDiv button {
+    font-size: 14px;
+  }
+}

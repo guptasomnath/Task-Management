@@ -1,0 +1,51 @@
+.sectionDiv{
+    height: 90%;
+    width: 100%;
+    padding: 15px 18px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    overflow: scroll;
+    background-color: #fff;
+}
+
+
+.loaderParent{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loaderChild{
+    margin-top: 60px;
+    height: 35px;
+    width: 35px;
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #0061ff;
+    border-radius: 50%;
+    -webkit-animation: spin 0.6s linear infinite;
+    animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+::-ms-scrollbar{
+    display: none;
+}

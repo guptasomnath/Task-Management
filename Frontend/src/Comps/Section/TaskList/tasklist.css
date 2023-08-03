@@ -1,0 +1,45 @@
+.taskListDiv{
+    width: 300px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 3px gray;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.taskListDiv h1{
+    font-size: 18px;
+    color: rgb(44, 42, 42);
+}
+
+.taskListDiv p{
+    font-size: 13px;
+    text-align: left;
+    color: rgb(44, 42, 42);
+    padding-bottom: 8px;
+    text-overflow: clip;
+}
+
+      
+.taskListDiv .taskHeader{
+    overflow: scroll;
+}
+
+.taskFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: rgb(44, 42, 42);
+    font-size: 10px;
+    color: gray;
+}
+
+.taskStatus{
+  padding: 5px 15px;
+  background-color: yellow;
+  border-radius: 20px;
+  color: black;
+}
