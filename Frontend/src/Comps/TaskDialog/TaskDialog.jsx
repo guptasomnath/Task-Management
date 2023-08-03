@@ -34,7 +34,7 @@ function TaskDialog() {
       <div className="mainDialogBody">
         <div className="dialogHead">
           <h1>{taskDialogState.dialogTitle}</h1>
-          <div>
+          <div className="iconsDiv">
             <img onClick={onEditIconClick} src={editIcon} />
             <img onClick = {onCloseIconClick} src={closeIcon} />
           </div>
