@@ -10,7 +10,7 @@
 
 .taskDialog .mainDialogBody {
   width: 450px;
-  height: 300px;
+  max-height: 300px;
   background-color: #fff;
   border-radius: 0.3rem;
   overflow: scroll;
@@ -34,6 +34,10 @@
   font-size: 23px;
 }
 
+.taskDialog p{
+  padding-bottom: 20px;
+}
+
 .taskDialog .iconsDiv {
  display: inline-flex;
 }
@@ -54,7 +58,7 @@
   .taskDialog .mainDialogBody {
     width: 100%;
     margin: 0 5px;
-    height: 200px;
+    max-height: 260px;
   }
 
   .taskDialog .dialogHead h1 {
