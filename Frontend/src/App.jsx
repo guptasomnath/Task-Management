@@ -9,7 +9,7 @@ import Toast from './Comps/Toast/Toast';
 import Progress from "./Comps/Progress/Progress";
 import { Routes, Route } from "react-router-dom";
 
-export const baseUrl = "http://localhost:8080";
+export const baseUrl = "https://task-management-brown.vercel.app"; //"http://localhost:8080";
  
 function App() {
   useEffect(()=>{
