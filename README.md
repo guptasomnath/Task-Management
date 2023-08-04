@@ -1,5 +1,10 @@
 # Task-Management MERN stack project
 
+ # What I Have Learned
+ - Practical use of callbacks
+ - Max-height concept of CSS
+ - And Much More...
+
 # Technology Used
 - React js, Redux, Formik,
 - Node js, Express js, Joi,
