@@ -15,6 +15,9 @@ function App() {
   useEffect(()=>{
     document.documentElement.style.setProperty('--mainLayoutHeight--', window.innerHeight + "px");
   },[]);
+  addEventListener('resize', () => {
+    document.documentElement.style.setProperty('--mainLayoutHeight--', window.innerHeight + "px");
+  })
   return (
     <div className="App">
       <TaskDialog />

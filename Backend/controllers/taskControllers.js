@@ -7,12 +7,12 @@ import {
 export const getAllTasks = async (req, res) => { //get all tasks list
   try {
     const allTasks = await TaskManager.find({});
-    if(allTasks.length == 0) return res.status(400).json({ isSuccess: true, response: "No Tasks Found" });
+    if(allTasks.length == 0) return res.status(400).json({ isSuccess: false, response: "No Tasks Found" });
 
     res.status(200).json({ isSuccess: true, response: allTasks });
   } catch (err) {
     //if any runtime error
-    res.status(400).json({ isSuccess: true, response: err });
+    res.status(400).json({ isSuccess: false, response: err });
   }
 };
 

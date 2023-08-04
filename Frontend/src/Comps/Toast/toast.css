@@ -1,5 +1,5 @@
 .tostBackground{
-    height: 100dvh;
+    height: var(--mainLayoutHeight--);
     width: 100%;
     position: absolute;
     display: flex;

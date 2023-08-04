@@ -1,11 +1,10 @@
 .sectionDiv{
-    height: 90%;
+    height: calc(var(--mainLayoutHeight--) - var(--navbarHeight--));
     width: 100%;
     padding: 15px 18px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 15px;
     flex-wrap: wrap;
     align-content: flex-start;
     overflow: scroll;

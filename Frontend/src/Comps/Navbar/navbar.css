@@ -4,6 +4,7 @@
   justify-content: space-between;
   padding: 10px 12px;
   width: 100%;
+  height: var(--navbarHeight--);
   background-color: #fff;
 }
 

@@ -1,5 +1,5 @@
 .editTaskDiv{
-    height: 90dvh;
+    height: calc(var(--mainLayoutHeight--) - var(--navbarHeight--));
     width: 100%;
     display: flex;
     flex-direction: column;

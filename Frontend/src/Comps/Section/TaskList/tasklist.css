@@ -6,6 +6,7 @@
     justify-content: space-between;
     box-shadow: 0 0 3px gray;
     padding: 15px;
+    margin: 0 15px;
     cursor: pointer;
 }
 
@@ -45,10 +46,20 @@
   background-color: yellow;
   border-radius: 20px;
   color: black;
+  font-size: 10px;
 }
 
 @media screen and (max-width: 600px) {
     .taskListDiv{
         width: 100%;
+        margin: 15px 0;
+    }
+
+    .taskStatus{
+        font-size: 12px;
+      }
+
+      .taskFooter{
+        font-size: 11px;
     }
 }

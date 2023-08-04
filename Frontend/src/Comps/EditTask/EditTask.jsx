@@ -128,6 +128,11 @@ function EditTask() {
     dispatch(setProgressState(false)); //hide progress bar
   };
 
+  addEventListener('resize', () => {
+    console.log('Resize')
+    document.documentElement.style.setProperty('--mainLayoutHeight--', window.innerHeight + "px");
+  })
+
   return (
     <div>
       <Formik
