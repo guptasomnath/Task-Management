@@ -25,7 +25,7 @@
       Response If Failed:- statusCode(400)
       {
         isSuccess: false,
-        message: "Failed Message"
+        message: Failed-Message
       }
 
       Response If Success:- statusCode(200)
