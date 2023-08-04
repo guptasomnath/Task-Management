@@ -1,12 +1,12 @@
 # Task-Management MERN stack project
 
 # Technology Used
-React js, Redux, Formik,
-Node js, Express js, Joi,
-MongoDB
+- React js, Redux, Formik,
+- Node js, Express js, Joi,
+- MongoDB
 
-Vercel Cloud For Backend API,
-Netlify Cloud For Frontend.
+- Vercel Cloud For Backend API,
+- Netlify Cloud For Frontend.
 
 ## Features
 
