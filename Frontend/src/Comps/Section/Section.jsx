@@ -60,7 +60,7 @@ function Section() {
          <div className="loaderChild"></div>
       </div>
          {
-          tasks.map((value, index) => <Tasklist key={index} title={value.title} description={value.description} status = {value.status} date = {value.date} id = {value._id}/>)
+          tasks.reverse().map((value, index) => <Tasklist key={index} title={value.title} description={value.description} status = {value.status} date = {value.date} id = {value._id}/>)
          }
       </section>
   );
